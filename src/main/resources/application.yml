@@ -1,0 +1,3 @@
+spring:
+    application:
+        name: spring-boot-json-to-swift-mt103-message

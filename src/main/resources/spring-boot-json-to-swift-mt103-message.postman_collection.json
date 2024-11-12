@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "e606021a-b2b0-4b3f-9972-01354c153ead",
+		"name": "spring-boot-json-to-swift-mt103-message",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7848965"
+	},
+	"item": [
+		{
+			"name": "Convert JSON to MT103 message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/payment/convert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"payment",
+						"convert"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST -H \"Content-Type:multipart/form-data\" -F \"file=@\" --url \"http://localhost:8080/payment/convert\""
+			},
+			"response": []
+		}
+	]
+}

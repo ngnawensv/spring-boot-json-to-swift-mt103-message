@@ -1,0 +1,14 @@
+{
+  "sender": {
+    "bank": "BANKABC",
+    "account": "123456789"
+  },
+  "receiver": {
+    "bank": "BANKXYZ",
+    "account": "987654321"
+  },
+  "amount": 1000.50,
+  "currency": "USD",
+  "date": "2024-11-11",
+  "reference": "REF123456"
+}
